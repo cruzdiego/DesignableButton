@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DesignableButton_Example', :exclusive => true do
+  pod "DesignableButton", :path => "../"
+end
+
+target 'DesignableButton_Tests', :exclusive => true do
+  pod "DesignableButton", :path => "../"
+
+  
+end
