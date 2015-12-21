@@ -6,7 +6,7 @@ public class DesignableButton: UIControl {
     @IBOutlet public var highlightableViews: [UIView]?
     //MARK: Variables
     //Inspectables
-    @IBInspectable public var highlightedEnabled:Bool = true
+    @IBInspectable public var highlight:Bool = true
     @IBInspectable public var highlightAlpha:CGFloat = 0.5{
         didSet{
             if oldValue != highlightAlpha{
@@ -17,7 +17,7 @@ public class DesignableButton: UIControl {
     //Overriden
     override public var highlighted:Bool{
         didSet{
-            if highlightedEnabled{
+            if highlight{
                 refreshHighlightedState()
             }
         }

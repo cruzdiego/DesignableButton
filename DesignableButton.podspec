@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "DesignableButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DesignableButton."
+  s.summary          = "Design it on Storyboard. A fully customizable button without the hassle."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       DESC
+                       Created with prototypers and designers in mind, DesignableButton lets you design a button with a full custom layout and elements inside of it. Don't worry about implementing UITapGestureRecognizers, overriding touchesEnded or another hack used for making a custom view "tapable".
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DesignableButton"
+                       In adition, DesignableButton supports a customizable highlight behavior. Just tell it which subviews you want to highlight at tap.
+
+  s.homepage         = "https://github.com/cruzdiego/DesignableButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Diego Cruz" => "diego.cruz@icloud.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DesignableButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/cruzdiego/DesignableButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
