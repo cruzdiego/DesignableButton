@@ -1,0 +1,14 @@
+PODS:
+  - DesignableButton (0.1.0)
+
+DEPENDENCIES:
+  - DesignableButton (from `../`)
+
+EXTERNAL SOURCES:
+  DesignableButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DesignableButton: d710daf751b41870a283f9db51c1273ebdff22ce
+
+COCOAPODS: 0.39.0

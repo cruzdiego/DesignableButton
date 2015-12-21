@@ -9,16 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    //MARK: - Action methods
+    
+    @IBAction func simpleButtonPressed(sender: AnyObject) {
+        performSegueWithIdentifier("pushSegue", sender: self)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func highlightingOneElementPressed(sender: AnyObject) {
+        func alert()->UIAlertController{
+            let newAlert = UIAlertController(title: "Alert", message: "Button pressed", preferredStyle: .Alert)
+            let okAction = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
+            newAlert.addAction(okAction)
+            return newAlert
+        }
+        
+        //
+        presentViewController(alert(), animated: true, completion: nil)
     }
-
+    
+    @IBAction func highlightingMultipleElementsPressed(sender: UIView) {
+        UIView.animateKeyframesWithDuration(0.4, delay: 0.1, options: .CalculationModeLinear, animations: { () -> Void in
+            
+            UIView.addKeyframeWithRelativeStartTime(0, relativeDuration: 0.5, animations: { () -> Void in
+                sender.transform = CGAffineTransformMakeTranslation(0, 240)
+            })
+            UIView.addKeyframeWithRelativeStartTime(0.5, relativeDuration: 0.5, animations: { () -> Void in
+                sender.transform = CGAffineTransformMakeTranslation(0, 0)
+            })
+            
+            }, completion: nil)
+    }
+    
 }
 

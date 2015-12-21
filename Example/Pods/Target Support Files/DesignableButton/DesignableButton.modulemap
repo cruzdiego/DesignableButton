@@ -1,0 +1,6 @@
+framework module DesignableButton {
+  umbrella header "DesignableButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
