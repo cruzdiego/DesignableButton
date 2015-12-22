@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DesignableButton.svg?style=flat)](http://cocoapods.org/pods/DesignableButton)
 [![Platform](https://img.shields.io/cocoapods/p/DesignableButton.svg?style=flat)](http://cocoapods.org/pods/DesignableButton)
 
-![]({{site.baseurl}}/Pod/Assets/Intro.gif)
+![](https://github.com/cruzdiego/DesignableButton/Pod/Assets/Intro.gif)
 
 ##Features
 
@@ -17,7 +17,7 @@
 
 Drag an UIView to your Storyboard scene and change asign DesignableButton as its custom class
 
-![](https://github.com/cruzdiego/Pod/Assets/CustomClass.png)
+![](https://github.com/cruzdiego/DesignableButton/Pod/Assets/CustomClass.png)
 
 From there, you can insert subviews to it and asign IBActions to its events (being Touch Up Inside the most used).
 
@@ -25,7 +25,7 @@ From there, you can insert subviews to it and asign IBActions to its events (bei
 
 Thanks to IBInspectables, you can customize the following properties right on Storyboard:
 
-![](https://github.com/cruzdiego/Pod/Assets/IBInspectables.png)
+![](https://github.com/cruzdiego/DesignableButton/Pod/Assets/IBInspectables.png)
 
 ```swift
 @IBInspectable var highlight:Bool = true
@@ -47,7 +47,7 @@ Collection of subviews selected to be highlighted at tap. If empty or nil (and h
 
 You can append subviews to this array either programatically or using Storyboard:
 
-![](https://github.com/cruzdiego/Pod/Assets/IBOutlets.png)
+![](https://github.com/cruzdiego/DesignableButton/Pod/Assets/IBOutlets.png)
 
 ## Requirements
 
