@@ -95,6 +95,10 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="highlightAlpha">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="simpleButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="E5s-BA-jKf"/>

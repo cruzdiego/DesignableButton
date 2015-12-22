@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DesignableButton"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Design it on Storyboard. A fully customizable button without the hassle."
 
 # This description is used to generate tags and improve search results.
