@@ -1,6 +1,5 @@
 # DesignableButton
 
-[![CI Status](http://img.shields.io/travis/Diego Cruz/DesignableButton.svg?style=flat)](https://travis-ci.org/Diego Cruz/DesignableButton)
 [![Version](https://img.shields.io/cocoapods/v/DesignableButton.svg?style=flat)](http://cocoapods.org/pods/DesignableButton)
 [![License](https://img.shields.io/cocoapods/l/DesignableButton.svg?style=flat)](http://cocoapods.org/pods/DesignableButton)
 [![Platform](https://img.shields.io/cocoapods/p/DesignableButton.svg?style=flat)](http://cocoapods.org/pods/DesignableButton)
