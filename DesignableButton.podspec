@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       Created with prototypers and designers in mind, DesignableButton lets you design a button with a full custom layout and elements inside of it. Don't worry about implementing UITapGestureRecognizers, overriding touchesEnded or another hack used for making a custom view "tapable".
+                       Created with prototypers and designers in mind, DesignableButton lets you design a button with a full custom layout and elements inside of it. Don't worry about implementing UITapGestureRecognizers, overriding touchesEnded or another hack used for making a custom view tapable. 
 
                        In adition, DesignableButton supports a customizable highlight behavior. Just tell it which subviews you want to highlight at tap.
+                       DESC
 
   s.homepage         = "https://github.com/cruzdiego/DesignableButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
