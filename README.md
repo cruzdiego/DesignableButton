@@ -17,7 +17,7 @@
 
 Drag an UIView to your Storyboard scene and change asign DesignableButton as its custom class
 
-![]({{site.baseurl}}/Pod/Assets/CustomClass.png)
+![](https://github.com/cruzdiego/Pod/Assets/CustomClass.png)
 
 From there, you can insert subviews to it and asign IBActions to its events (being Touch Up Inside the most used).
 
@@ -25,7 +25,7 @@ From there, you can insert subviews to it and asign IBActions to its events (bei
 
 Thanks to IBInspectables, you can customize the following properties right on Storyboard:
 
-![]({{site.baseurl}}/Pod/Assets/IBInspectables.png)
+![](https://github.com/cruzdiego/Pod/Assets/IBInspectables.png)
 
 ```swift
 @IBInspectable var highlight:Bool = true
@@ -47,7 +47,7 @@ Collection of subviews selected to be highlighted at tap. If empty or nil (and h
 
 You can append subviews to this array either programatically or using Storyboard:
 
-![]({{site.baseurl}}/Pod/Assets/IBOutlets.png)
+![](https://github.com/cruzdiego/Pod/Assets/IBOutlets.png)
 
 ## Requirements
 
