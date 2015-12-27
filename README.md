@@ -50,7 +50,7 @@ You can append subviews to this array either programatically or using Storyboard
 
 ## Requirements
 
-1. iOS 8
+1. iOS 8.2 or newer
 2. Xcode version supporting Swift 2.1 syntax (7.1 or later)
 
 ## Installation
